@@ -41,7 +41,7 @@ def fix_theme(text, target):
 def map_slide(text, slide_map):
     for old, new in slide_map.items():
         text = re.sub(
-            r'(srgbClr\s+val=")(\u0027 + old + r\u0027)(")',
+            r'(srgbClr\s+val=")(' + old + r')(")',
             lambda m: m.group(1) + new + m.group(3),
             text, flags=re.IGNORECASE
         )

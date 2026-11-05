@@ -1,4 +1,4 @@
-# 60-ppt（通用 PPT 生成器）
+# general-ppt（通用 PPT 生成器）
 
 > 通用中文 PPT 制作技能，由一次高校说课 PPT 实战蒸馏而成。
 > 核心价值：**问需求 → 补密度 → 口述确认 → 设计感选型 → 模板生成 → 真实图 → 清理统一 → 渲染交付**，产出可编辑 PPTX。
@@ -66,11 +66,11 @@ AI 做 PPT 最容易翻车的五件事，本技能全部提前拦截：
 
 ## 安装
 
-把本仓库 clone 到你的 AI 技能目录（如 `.user_skills/` 或 `.claude/skills/`），或直接复制整个 `60-ppt` 文件夹：
+把本仓库 clone 到你的 AI 技能目录（如 `.user_skills/` 或 `.claude/skills/`），或直接复制整个 `general-ppt` 文件夹：
 
 ```bash
 git clone https://github.com/liuning60/general-ppt.git
-# 将 general-ppt 目录重命名为 60-ppt 放入技能目录即可
+# 目录名即 general-ppt，直接放入技能目录即可
 ```
 
 依赖（各平台通用）：
